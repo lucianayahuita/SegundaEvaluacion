@@ -1,0 +1,18 @@
+{
+  "name": "microservicio-films-graphql",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "apollo-server": "^3.12.0",
+    "axios": "^1.6.7",
+    "dotenv": "^16.3.1",
+    "graphql": "^16.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
